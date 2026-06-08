@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "date": "2026-06-08",
+    "amount": 120.0,
+    "category": "transport",
+    "description": "Auto rickshaw"
+  },
+  {
+    "id": 2,
+    "date": "2026-06-08",
+    "amount": 80.0,
+    "category": "snacks",
+    "description": "Chai & snacks"
+  },
+  {
+    "id": 3,
+    "date": "2026-06-08",
+    "amount": 350.0,
+    "category": "food",
+    "description": "Zomato cheeseburger"
+  }
+]
