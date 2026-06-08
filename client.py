@@ -59,7 +59,7 @@ async def main():
                 tool_results = []
                 for tu in tool_uses:
                     result = await mcp.call_tool(tu.name, tu.input)
-                    result_text = result[0].text if result else ""
+                    result_text = result.content[0].text if result.content else ""
                     tool_results.append({
                         "type": "tool_result",
                         "tool_use_id": tu.id,
