@@ -1,7 +1,8 @@
 venv/
 __pycache__/
-.env
 *.pyc
-CLAUDE.md
-phases.md
-snapshots/
+*.pyo
+.env
+*.md
+.snapshots/
+.claude/
